@@ -42,7 +42,7 @@ class RecordAudProvider with ChangeNotifier {
   Future<dynamic> _MusicInfo(String? _audFile) async {
     final Uri urlAPI = Uri.parse("https://api.audd.io/");
     Map<String, dynamic> urlPram = {
-      'api_token': "c7114e7457054768a3d623f5679c9f93",
+      'api_token': "token dado por la API insertar ",
       'audio': _audFile,
       'return': 'apple_music,spotify',
     };
